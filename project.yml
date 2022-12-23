@@ -1,0 +1,51 @@
+parameters: {}
+environment: {} 
+packages:
+    - name: automation
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: subdomainRunner
+          binary: false
+          main: ""
+          runtime: go:default
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+    - name: automation
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: addSeedDomain
+          binary: false
+          main: ""
+          runtime: go:default
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+    - name: automation
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: bulkAddSeedDomains
+          binary: false
+          main: ""
+          runtime: go:default
+          web: true
+          websecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
